@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+header {
+  background: #0077b6;
+  color: white;
+  padding: 2em 0;
+}
+.logo {
+  width: 80px;
+  height: auto;
+}
+.services {
+  padding: 2em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+}
+footer {
+  background: #023e8a;
+  color: white;
+  padding: 1em 0;
+}
+
+.portfolio, .contact {
+  padding: 2em;
+  background: #ffffff;
+  margin-top: 1em;
+  border-top: 1px solid #ccc;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.project {
+  background: #e0f7fa;
+  padding: 1em;
+  border-radius: 8px;
+}
+form input, form textarea {
+  width: 80%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #0077b6;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #023e8a;
+}
+
+
+.testimonials, .blog {
+  padding: 2em;
+  background: #f1f1f1;
+  margin-top: 1em;
+}
+blockquote {
+  font-style: italic;
+  background: #fff;
+  padding: 1em;
+  margin: 1em auto;
+  border-left: 4px solid #0077b6;
+  max-width: 80%;
+  border-radius: 5px;
+}
+.blog-post {
+  margin-bottom: 1.5em;
+  background: #ffffff;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.about, .team, .careers {
+  padding: 2em;
+  background: #f9f9f9;
+  margin-top: 1em;
+}
+.team-member {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 1em auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+
+.contact {
+  padding: 2em;
+  background: #f8f9fa;
+  margin-top: 1em;
+  border-top: 1px solid #ccc;
+}
+form input, form textarea {
+  width: 80%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #0077b6;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #023e8a;
+}
